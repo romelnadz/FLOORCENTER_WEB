@@ -107,6 +107,38 @@
                 
         }
     });
+/*==================================================================
+    // [ Menu mobile shape ]*/
+    // $('.btn-show-menu-mobile').on('click', function(){
+    //     $(this).toggleClass('is-active');
+    //     $('.menu-mobile').slideToggle();
+    // });
+
+    var arrowMainMenu = $('.arrow-main-menu-m-shape');
+
+    for(var i=0; i<arrowMainMenu.length; i++){
+        $(arrowMainMenu[i]).on('click', function(){
+            $(this).parent().find('.sub-menu-m-shape').slideToggle();
+            $(this).toggleClass('turn-arrow-main-menu-m-shape');
+        })
+    }
+
+    $(window).resize(function(){
+        if($(window).width() >= 992){
+            if($('.menu-mobile').css('display') == 'block') {
+                $('.menu-mobile').css('display','none');
+                $('.btn-show-menu-mobile-shape').toggleClass('is-active');
+            }
+
+            $('.sub-menu-m-shape').each(function(){
+                if($(this).css('display') == 'block') { console.log('hello');
+                    $(this).css('display','none');
+                    $(arrowMainMenu).removeClass('turn-arrow-main-menu-m-shape');
+                }
+            });
+                
+        }
+    });
 
 
     /*==================================================================
