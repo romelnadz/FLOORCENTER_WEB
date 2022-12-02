@@ -45,7 +45,7 @@
 /*--------------------------------BANNER-----------------------------------*/
 .banner_min
 {
-	background-image: url('../src/banner_minimal_mobile.png');
+		background-image: url('../src/banner_minimal_mobile.svg');
     background-repeat: no-repeat;
     background-attachment: contain;
     background-size: 100%;
