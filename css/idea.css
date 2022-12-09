@@ -66,7 +66,7 @@
 .idea_img1
 {
 	float: left;
-	background: url('../src/idea_img1.svg') center/100% no-repeat;
+	/*background: url('../src/idea_img1.svg') center/100% no-repeat;*/
 	height: 75vw; 
 	width: 100%;
 
@@ -74,7 +74,7 @@
 .idea_img2
 {
 	float: left;
-	background: url('../src/idea_img2.svg') center/100% no-repeat;
+	/*background: url('../src/idea_img2.svg') center/100% no-repeat;*/
 	height: 125vw; 
 	width: 100%;
 
@@ -82,7 +82,7 @@
 .idea_img3
 {
 	float: left;
-	background: url('../src/idea_img3.svg') center/100% no-repeat;
+	/*background: url('../src/idea_img3.svg') center/100% no-repeat;*/
 	height: 120vw; 
 	width: 100%;
 
