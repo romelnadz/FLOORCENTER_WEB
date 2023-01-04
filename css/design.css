@@ -88,10 +88,12 @@
 }
 .design_txt a
 {
-	font: 5vw/5vw 'work-bold';
-	color: #000;
+	font: 4vw/4vw 'work-bold';
+	color: #393939;
 	display: table-cell;
 	vertical-align: middle;
+	text-decoration: none;
+
 	/*text-align: center;*/
 
 }
@@ -128,7 +130,7 @@
 	width: 100%; 
 	/*border-left:  solid 1px lightpink;*/
 	/*border-top: dashed 1px lightblue;*/
-	height:100vw;
+	height:80vw;
 	
 	padding: 0;
 }
@@ -184,7 +186,7 @@
 /*-------------------tablet devices and up----------------------*/
 
 
-@media (min-width: 400px)
+@media (min-width: 480px)
 {
 	.tile_design_container
 	{
@@ -252,10 +254,12 @@
 	}
 	.design_txt a
 	{
-		font: 2.8vw/2.8vw 'work-bold';
+		font: 2vw/2vw 'work-bold';
 		color: #000;
 		display: table-cell;
 		vertical-align: middle;
+		text-decoration: none;
+
 		/*text-align: center;*/
 
 	}
@@ -289,8 +293,6 @@
 	{
 		float:left;
 		width: 100%; 
-		/*border-left:  solid 1px lightpink;*/
-		/*border-top: dashed 1px lightblue;*/
 		height:25vw;
 		
 		padding: 0;
@@ -299,14 +301,81 @@
 	{
 		float:left;
 		width: 25%; 
-		/*border-left:  solid 1px lightpink;*/
-		/*border: dashed 1px lightblue;*/
 		height:25vw;
 		padding: 0;
-	/*DESIGN CARDS END*/
 }
 
 
 /*------------------------------TILE DESIGN----------------------------------*/
 /*------------------------------TILE DESIGN----------------------------------*/
-/*------------------------------TILE DESIGN----------------------------------
+/*------------------------------TILE DESIGN----------------------------------*/
+
+
+@media only screen and (min-width: 1400px)
+{
+	.tile_design_container
+	{
+		float: left;
+		/*border-left:  solid 1px lightpink;*/
+		/*border-top: dashed 1px lightblue;*/
+		height: 20vw;
+		width: 100%
+
+	}
+	/*M RIGHT*/
+	.design_m_l
+	{
+		float:left;
+		/*border-left:  solid 1px lightpink;*/
+		/*border-top: dashed 1px lightblue;*/
+		width: 20%;
+		height:20vw;
+	}
+	/*CENTER */
+	.tile_design_center
+	{
+		float:left;
+		width: 60%; 
+		/*border-left:  solid 1px lightpink;*/
+		/*border-top: dashed 1px lightblue;*/
+		height:20vw;
+	}
+	/*M  LEFT*/
+	.design_m_r
+	{
+		display: block;
+		float:right;
+		width: 20%;
+		height:20vw;
+	}
+	.design_txt a
+	{
+		font: 1.5vw/1.5vw 'work-bold';
+		color: #454545;
+		display: table-cell;
+		vertical-align: middle;
+		/*text-align: center;*/
+
+
+	}
+
+	.design_card
+	{
+		float:left;
+		width: 25%; 
+		height:15vw;
+		padding: 0;
+	}
+
+	.design_card_row
+	{
+		float:left;
+		width: 100%; 
+		height:15vw;
+		
+		padding: 0;
+	}
+
+
+}
+

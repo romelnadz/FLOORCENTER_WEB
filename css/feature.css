@@ -90,11 +90,12 @@
 }
 .feature_txt a
 {
-	font: 5vw/5vw 'work-bold';
-	color: #000;
+	font: 4vw/4vw 'work-bold';
+	color: #393939;
 	display: table-cell;
 	vertical-align: middle;
-	/*text-align: center;*/
+	text-decoration: none;
+
 
 }
 .feature_btn
@@ -186,7 +187,7 @@
 /*-------------------tablet devices and up----------------------*/
 
 
-@media (min-width: 400px)
+@media (min-width: 480px)
 {
 	.feature_container
 	{
@@ -254,8 +255,139 @@
 	}
 	.feature_txt a
 	{
-		font: 2.8vw/2.8vw 'work-bold';
+		font: 2vw/2vw 'work-bold';
 		color: #000;
+		display: table-cell;
+		vertical-align: middle;
+		text-decoration: none;
+		/*text-align: center;*/
+
+	}
+	.feature_btn
+	{
+		float:right;
+		width: 25%; 
+		height:5vw;
+
+	}
+	.feature_btn_img
+	{
+		background: url('../src/feature_btn.svg') center/80% no-repeat;
+		height: 5vw;
+		max-height: 5vw;
+		width: 100%;
+		float: right;
+		/*border: dashed 1px lightblue;*/
+
+	}
+	.feature_btn_img:hover
+	{
+		background: url('../src/feature_btn_hover.svg') center/80% no-repeat;
+		height: 5vw; 
+		width: 100%;
+		float: right;
+	}
+
+	/*DESIGN CARDS*/
+	.feature_card_row
+	{
+		float:left;
+		width: 100%; 
+		/*border-left:  solid 1px lightpink;*/
+		/*border-top: dashed 1px lightblue;*/
+		height:25vw;
+		
+		padding: 0;
+	}
+	.feature_card
+	{
+		float:left;
+		width: 25%; 
+		/*border-left:  solid 1px lightpink;*/
+		/*border: dashed 1px lightblue;*/
+		height:25vw;
+		padding: 0;
+	/*DESIGN CARDS END*/
+	}
+
+}
+
+
+/*------------------------------TILE DESIGN----------------------------------*/
+/*------------------------------TILE DESIGN----------------------------------*/
+/*------------------------------TILE DESIGN----------------------------------*/
+
+
+@media only screen and (min-width: 1400px)
+{
+	.feature_container
+	{
+		float: left;
+		/*border-left:  solid 1px lightpink;*/
+		/*border-top: dashed 1px lightblue;*/
+		height: 30vw;
+		width: 100%
+
+	}
+	/*M RIGHT*/
+	.feature_m_l
+	{
+		float:left;
+		/*border-left:  solid 1px lightpink;*/
+		/*border-top: dashed 1px lightblue;*/
+		width: 20%;
+		height:30vw;
+	}
+	/*CENTER */
+	.feature_center
+	{
+		float:left;
+		width: 60%; 
+		/*border-left:  solid 1px lightpink;*/
+		/*border-top: dashed 1px lightblue;*/
+		height:30vw;
+	}
+	/*M  LEFT*/
+	.feature_m_r
+	{
+		display: block;
+		float:right;
+		width: 20%;
+		height:30vw;
+	}
+
+	/*TEXT AND BTN*/
+	.feature_txt_btn
+	{
+		float:left;
+		width: 100%; 
+		height:5vw;
+		
+	}
+
+	.feature_txt
+	{
+		float:left;
+		width: 70%; 
+		height:5vw;
+	}
+	.feature_btn
+	{
+		float:right;
+		width: 30%; 
+		height:5vw;
+	}
+	.feature_txt
+	{
+		float:left;
+		width: 75%; 
+		height:5vw;
+		display: table;
+	}
+	.feature_txt a
+	{
+		font: 1.5vw/1.5vw 'work-bold';
+		color: #454545;
 		display: table-cell;
 		vertical-align: middle;
 		/*text-align: center;*/
@@ -306,9 +438,5 @@
 		height:25vw;
 		padding: 0;
 	/*DESIGN CARDS END*/
+	}
 }
-
-
-/*------------------------------TILE DESIGN----------------------------------*/
-/*------------------------------TILE DESIGN----------------------------------*/
-/*------------------------------TILE DESIGN----------------------------------
